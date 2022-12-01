@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "description": "advent of code challenge",
+  "main": "index.js",
+  "author": "floriangrv",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prettier": "^2.8.0"
+  }
+}
