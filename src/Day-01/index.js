@@ -1,8 +1,6 @@
 import colors from 'colors'
-import { URL, fileURLToPath } from 'url'
-import { readInput } from '../utils/readInput.js'
-const inputPath = fileURLToPath(new URL('./input.txt', import.meta.url))
-const data = await readInput(inputPath)
+import { readFileSync } from 'fs'
+const data = readFileSync('./input.txt', 'utf-8')
 const ElvesCalList = data.split('\n')
 
 // part 1
